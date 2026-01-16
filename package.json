@@ -1,0 +1,32 @@
+{
+  "name": "coffee-cart-accenture",
+  "version": "1.0.0",
+  "description": "Automação Elite God Tier para o desafio Accenture",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "report": "node cucumber-html-report.js",
+    "test:god-tier": "npm run cy:run || true && npm run report"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/support/step_definitions/**/*.{js,ts}",
+    "json": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-json/report.json",
+      "formatter": "cucumber-json-formatter"
+    },
+    "html": {
+      "enabled": false
+    }
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "@faker-js/faker": "latest",
+    "cypress": "latest",
+    "dotenv": "latest",
+    "esbuild": "latest",
+    "multiple-cucumber-html-reporter": "latest"
+  }
+}
