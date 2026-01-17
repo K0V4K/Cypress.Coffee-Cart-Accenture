@@ -153,7 +153,7 @@ npm run report
 > [!TIP]
 > **Localização do Relatório:**
 >
-> Com navegador aberto e
+> Copie e cole no navegador o link gerado
 >Após a execução, o seu terminal deve retorna algo parecido como:
 > `cypress/reports/html-report/index.html`
 
