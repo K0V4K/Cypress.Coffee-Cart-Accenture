@@ -11,8 +11,8 @@
   <br>
 
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen?style=for-the-badge&logo=github)](https://github.com/K0V4K/Coffee-Cart-Accenture)
-[![Node](https://img.shields.io/badge/node.js-20-green?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
-[![Cypress](https://img.shields.io/badge/cypress-13.6-darkblue?style=for-the-badge&logo=cypress)](https://www.cypress.io/)
+[![Node](https://img.shields.io/badge/node.js-22-green?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
+[![Cypress](https://img.shields.io/badge/cypress-15.9-darkblue?style=for-the-badge&logo=cypress)](https://www.cypress.io/)
 [![Gemini AI](https://img.shields.io/badge/AI-Gemini%20Flash-blue?style=for-the-badge&logo=googlebard)](https://deepmind.google/technologies/gemini/)
 [![License](https://img.shields.io/badge/license-MIT-yellowgreen?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -43,7 +43,6 @@ cypress
 │   └── step_definitions         <- A "Cola" entre Gherkin e JS
 ├── ai-analyst.js                <- Agente de IA (Gemini Flash)
 └── cypress.config.js            <- Configurações Globais
-
 ```
 
 
@@ -53,7 +52,7 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 ## API utilizada
 
-* *Bookstore demoqa swagger UI:* Plataforma REST para simulação de fluxos de livraria e validação de contratos de API.*
+* *Coffee Cart App: E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.*
 
 ---
 
@@ -61,3 +60,4 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 * *Bookstore demoqa swagger UI:* Plataforma REST para simulação de fluxos de livraria e validação de contratos de API.*
 ---
+
