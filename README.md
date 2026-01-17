@@ -59,6 +59,5 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 ## Aplicação Alvo
 
-* **Coffee Cart App: E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.
-* 
+* *Bookstore demoqa swagger UI:* Plataforma REST para simulação de fluxos de livraria e validação de contratos de API.*
 ---
