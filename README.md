@@ -109,6 +109,6 @@ O projeto entrega 100% dos requisitos do desafio, somados a diferenciais de arqu
 * *Consulta a API do Google Gemini.*
 * *Recebe a causa raiz e a solução técnica.*
 * *Injeta essa consultoria no relatório HTML com print e dicas de correção*
-
+---
 Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA não polua o relatório em execuções sucessivas.
 ---
