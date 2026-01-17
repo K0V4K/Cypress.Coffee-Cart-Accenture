@@ -43,3 +43,21 @@ cypress
 │   └── step_definitions         <- A "Cola" entre Gherkin e JS
 ├── ai-analyst.js                <- Agente de IA (Gemini Flash)
 └── cypress.config.js            <- Configurações Globais
+
+```
+
+
+# Automation | Cypress + AI
+
+Este projeto transcende a automação tradicional ao integrar um Agente de IA (Google Gemini). Além de cobrir fluxos críticos de compra e saúde da API, o sistema intercepta falhas, analisa o erro técnico e injeta uma solução recomendada diretamente no relatório final.
+
+## API utilizada
+
+* *Bookstore demoqa swagger UI:* Plataforma REST para simulação de fluxos de livraria e validação de contratos de API.
+
+---
+
+## Aplicação Alvo
+
+* **Coffee Cart App: E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.
+---
