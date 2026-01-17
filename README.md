@@ -95,7 +95,10 @@ Backend Health Check (api_health.feature)
 * *Validação de Contrato: Verifica se o endpoint /list.json retorna status 200 e formato JSON.*
 * *Validação de Conteúdo: Garante que produtos essenciais ("Espresso") estejam presentes na resposta da API antes de iniciar os testes de UI.*
 * *Tagging: Uso de @api e @smoke para execuções rápidas.*
-* *Material Icon Theme: Para melhor visualização da estrutura de pastas.*
-* *Multiple Cucumber HTML Report: Geração de relatórios ricos e gráficos.*
 ---
-
+Fluxo de Compra E2E (comprar_cafe.feature)
+* *Page Object Model (POM): Classes HomePage e CartPage encapsulam seletores e métodos, facilitando a manutenção.*
+* *Seletores Resilientes: Prioridade absoluta para data-test e data-cy, evitando quebras por mudanças de CSS.*
+* *Zero cy.wait Fixo: Utilização de cy.intercept para aguardar requisições reais de rede, tornando o teste mais rápido e confiável.*
+* *Massa Dinâmica: Uso do Faker.js para preencher formulários com dados únicos a cada execução.*
+---
