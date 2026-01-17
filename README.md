@@ -82,7 +82,7 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 * *GitHub Actions: Pipeline de CI/CD configurado como "Vigia Noturno" (Execução diária).*
 ---
 ## Stack Tecnológico & Bibliotecas
-##Core
+* **Core*
 * *Node.js (v22.19.0): Ambiente de execução bundled.*
 * *Cypress (15.9.0): Framework de automação "Next Gen" para testes modernos.*
 * *Cucumber Preprocessor (v24.0.0): Permite a escrita de testes em linguagem natural (Gherkin)..*
