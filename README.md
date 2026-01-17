@@ -68,9 +68,9 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 ## Ambiente de Desenvolvimento & Plugins
 * **IDE**: [VScode](https://code.visualstudio.com/).
 * **Plugins**:
-* **Cucumber (Gherkin) Full Support: Para syntax highlight e navegação entre steps.
-* **ESLint: Para garantir a qualidade e padronização do código JS.
-* **Material Icon Theme: Para melhor visualização da estrutura de pastas.
+* **Cucumber (Gherkin) Full Support: Para syntax highlight e navegação entre steps.*
+* **ESLint: Para garantir a qualidade e padronização do código JS.*
+* **Material Icon Theme: Para melhor visualização da estrutura de pastas.*
 ---
 
 
