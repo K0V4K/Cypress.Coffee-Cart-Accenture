@@ -50,7 +50,7 @@ cypress
 
 Este projeto transcende a automação tradicional ao integrar um Agente de IA (Google Gemini). Além de cobrir fluxos críticos de compra e saúde da API, o sistema intercepta falhas, analisa o erro técnico e injeta uma solução recomendada diretamente no relatório final.
 
-## API utilizada
+## Aplicação Alvo
 
 * *Coffee Cart App: E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.*
 
@@ -83,3 +83,22 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 ---
 
 
+## 🛠️ Tech Stack & Arquitetura
+
+Este projeto foi construído sobre uma fundação robusta de tecnologias modernas, selecionadas para garantir performance, escalabilidade e inteligência.
+
+### 🔹 Core & Engine
+* **[Node.js](https://nodejs.org/)** (v22.19.0): Runtime JavaScript fundamental para execução do ambiente.
+* **[Cypress](https://www.cypress.io/)** (v15.9.0): Framework de testes "Next Gen", responsável pela interação direta com o navegador e asserções.
+
+### 🔹 BDD & Performance
+* **[Cucumber Preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)** (v24.0.0): Habilita a escrita de testes em Gherkin, servindo como ponte entre requisitos de negócio e código.
+* **[Esbuild](https://esbuild.github.io/)** (v2.2.0): Bundler e preprocessor de alta performance, reduzindo drasticamente o tempo de transpilação dos arquivos `.feature`.
+
+### 🔹 Utilities & Data
+* **[Faker.js](https://fakerjs.dev/)** (v8.4.0): Biblioteca utilizada para gerar massa de dados dinâmica e realista (User Data, PII) em tempo de execução.
+* **[Dotenv](https://github.com/motdotla/dotenv)** (v16.4.0): Gerenciamento de segurança, garantindo que chaves de API (Gemini) e credenciais não sejam expostas no código fonte.
+
+### 🔹 AI Intelligence & Reporting
+* **[Google Generative AI SDK](https://ai.google.dev/)** (v0.24.1): Integração com o LLM **Gemini 1.5 Flash** para análise automática de falhas e sugestão de correções.
+* **[Multiple Cucumber HTML Reporter](https://github.com/WasiqB/multiple-cucumber-html-reporter)** (v3.6.0): Transformação dos dados de teste em dashboards visuais ricos com métricas de execução.
