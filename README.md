@@ -156,6 +156,7 @@ npm run report
 > Copie e cole no navegador o link gerado
 >Após a execução, o seu terminal deve retorna algo parecido em azul como:
 > `cypress/reports/html-report/index.html`
-
+---
+![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Apenas%20Gerar%20Relat%C3%B3rio%20HTML%20e%20Ver%20Ping.png?raw=true)
 
 
