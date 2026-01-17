@@ -90,10 +90,9 @@ Este projeto foi construído sobre uma fundação robusta de tecnologias moderna
 ---
 ## Requisitos e Diferenciais Implementados
 ---
-
 O projeto entrega 100% dos requisitos do desafio, somados a diferenciais de arquitetura avançada:
-
-* **Backend Health Check (api_health.feature)*
+---
+Backend Health Check (api_health.feature)
   
 * *Validação de Contrato: Verifica se o endpoint /list.json retorna status 200 e formato JSON.*
 * *Validação de Conteúdo: Garante que produtos essenciais ("Espresso") estejam presentes na resposta da API antes de iniciar os testes de UI.*
