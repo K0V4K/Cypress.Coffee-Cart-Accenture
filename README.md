@@ -88,7 +88,7 @@ Este projeto foi construído sobre uma fundação robusta de tecnologias moderna
 ### CI/CD & Orchestration
 * **[GitHub Actions](https://github.com/features/actions)**: Pipeline de integração contínua configurado como "Vigia Noturno". Executa a bateria de testes automaticamente todos os dias às 06:00 UTC (Nightly Build) para garantir a estabilidade contínua do projeto.
 ---
-## Requisitos e Diferenciais Implementados
+## Requisitos e Diferenciais Implementados#
 
 O projeto entrega 100% dos requisitos do desafio, somados a diferenciais de arquitetura avançada:
 ---
