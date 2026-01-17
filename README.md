@@ -91,18 +91,18 @@ Este projeto foi construído sobre uma fundação robusta de tecnologias moderna
 # Automation | Cypress + AI
 O projeto entrega 100% dos requisitos do desafio, somados a diferenciais de arquitetura avançada:
 
-Backend Health Check (api_health.feature)
+## Backend Health Check (api_health.feature)
 * *Validação de Contrato: Verifica se o endpoint /list.json retorna status 200 e formato JSON.*
 * *Validação de Conteúdo: Garante que produtos essenciais ("Espresso") estejam presentes na resposta da API antes de iniciar os testes de UI.*
 * *Tagging: Uso de @api e @smoke para execuções rápidas.*
 ---
-Fluxo de Compra E2E (comprar_cafe.feature)
+## Fluxo de Compra E2E (comprar_cafe.feature)
 * *Page Object Model (POM): Classes HomePage e CartPage encapsulam seletores e métodos, facilitando a manutenção.*
 * *Seletores Resilientes: Prioridade absoluta para data-test e data-cy, evitando quebras por mudanças de CSS.*
 * *Zero cy.wait Fixo: Utilização de cy.intercept para aguardar requisições reais de rede, tornando o teste mais rápido e confiável.*
 * *Massa Dinâmica: Uso do Faker.js para preencher formulários com dados únicos a cada execução.*
 ---
-O Grande Diferencial: Agente de IA (ai-analyst.js)
+## O Grande Diferencial: Agente de IA (ai-analyst.js)
 * *Auto-Diagnóstico: Se um teste falha, o script:*
 * *Lê o erro técnico do JSON.*
 * *Consulta a API do Google Gemini.*
