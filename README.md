@@ -118,6 +118,12 @@ Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA 
 * *Zero cy.wait Fixo: Utilização de cy.intercept para aguardar requisições reais de rede, tornando o teste mais rápido e confiável.*
 * *Custom Commands: Implementação de cy.getDataCy() e cy.stepInfo() para abstrair complexidade e melhorar os logs do Cypress Runner.*
 
+
+## Como Executar o Projeto
+* *Node.js instalado.*
+* *Arquivo .env configurado com GEMINI_API_KEY*
+
+
 ### Execução Completa (Testes + Relatório + Ping + IA)
 ```bash
 
