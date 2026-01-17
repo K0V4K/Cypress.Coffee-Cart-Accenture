@@ -52,7 +52,7 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 ## Aplicação Alvo
 
-* *Coffee Cart App: E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.*
+* *WEB [CoffeCart](https://coffee-cart.app/): E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.*
 
 ---
 
