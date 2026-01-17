@@ -143,6 +143,8 @@ npm run cy:open
 npm run cy:run
 
 ```
+![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Apenas%20Rodar%20os%20Testes%20(Headless).png?raw=true)
+
 ### Apenas Gerar Relatório HTML e Ver Ping
 ```bash
 
