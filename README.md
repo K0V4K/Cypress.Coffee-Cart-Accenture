@@ -139,6 +139,8 @@ npm run test:god-tier
 npm run cy:open
 
 ```
+![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Iniciando%20Cypress.png?raw=true)
+
 ---
 ### Apenas Rodar os Testes (Headless)
 ```bash
