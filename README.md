@@ -150,3 +150,21 @@ npm run report
 
 ```
 
+
+
+<div align="center"> <img src="docs/ai-analysis.png" alt="Relatório com IA" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);"> <p><i>Diagnóstico automático do Gemini injetado diretamente no erro do teste.</i></p> </div>
+
+<div align="center"> <img src="docs/dashboard.png" alt="Dashboard Geral" width="100%" style="border-radius: 10px; margin-top: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);"> <p><i>Dashboard customizado com métricas de API Latency.</i></p> </div>
+
+<div align="center">
+
+"Quality is not an act, it is a habit."
+
+<p> Made with 💻 & ☕ by <b>Valter Pereira da Silva Filho</b>
+
+
+<b>Accenture Academy QE 2026</b> </p>
+
+<a href="https://www.linkedin.com/in/valterpereirafilho/" target="_blank"> <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> <a href="https://github.com/K0V4K" target="_blank"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-GitHub-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" alt="GitHub"> </a>
+
+</div>
