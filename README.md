@@ -119,7 +119,7 @@ Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA 
 * *Custom Commands: Implementação de cy.getDataCy() e cy.stepInfo() para abstrair complexidade e melhorar os logs do Cypress Runner.*
 
 
-## Como Executar o Projeto
+## Como Executar o Projeto: Pré-requisitos
 * *Node.js instalado.*
 * *Arquivo .env configurado com GEMINI_API_KEY*
 
