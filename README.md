@@ -56,7 +56,7 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 ---
 
-## Aplicação Alvo
+## Ambiente de Desenvolvimento & Plugins
 
 * *Node.js (v22.19.0): Ambiente de execução bundled.*
 * *Cypress (15.9.0): Framework de automação "Next Gen" para testes modernos.*
