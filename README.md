@@ -58,6 +58,11 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 ## Aplicação Alvo
 
-* *Bookstore demoqa swagger UI:* Plataforma REST para simulação de fluxos de livraria e validação de contratos de API.*
+* *Node.js (v22.19.0): Ambiente de execução bundled.*
+* *Cypress (15.9.0): Framework de automação "Next Gen" para testes modernos.*
+* *Cucumber Preprocessor (v24.0.0): Permite a escrita de testes em linguagem natural (Gherkin)..*
+* *Google Generative AI SDK: Integração com o modelo Gemini Flash-Latest para análise de erros.*
+* *Multiple Cucumber HTML Report: Geração de relatórios ricos e gráficos.*
+* *GitHub Actions: Pipeline de CI/CD configurado como "Vigia Noturno" (Execução diária).*
 ---
 
