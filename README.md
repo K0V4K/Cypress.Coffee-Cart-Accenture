@@ -130,7 +130,7 @@ Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA 
 npm run test:god-tier
 
 ```
-
+![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Execu%C3%A7%C3%A3o%20Completa%20(Testes%20+%20Relat%C3%B3rio%20+%20Ping%20+%20IA).png?raw=true)
 ### Abrir Interface Visual (Cypress Open)
 ```bash
 
