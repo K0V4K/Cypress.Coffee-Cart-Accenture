@@ -112,3 +112,8 @@ O projeto entrega 100% dos requisitos do desafio, somados a diferenciais de arqu
 ---
 Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA não polua o relatório em execuções sucessivas.
 
+## Fluxo de Compra E2E (comprar_cafe.feature)
+* *Hybrid Testing: Combinamos validação de API (rápida) com validação de UI (visual) no mesmo pipeline para garantir a saúde total da aplicação.*
+* *Bundling com Esbuild: Substituição do bundler padrão do Cypress pelo Esbuild para reduzir drasticamente o tempo de pré-processamento dos arquivos .feature.*
+* *Zero cy.wait Fixo: Utilização de cy.intercept para aguardar requisições reais de rede, tornando o teste mais rápido e confiável.*
+* *Custom Commands: Implementação de cy.getDataCy() e cy.stepInfo() para abstrair complexidade e melhorar os logs do Cypress Runner.*
