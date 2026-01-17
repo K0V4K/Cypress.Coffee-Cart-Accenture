@@ -67,11 +67,10 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 ---
 ## Ambiente de Desenvolvimento & Plugins
 * **IDE**: [VScode](https://code.visualstudio.com/).
-* *Cypress (15.9.0): Framework de automação "Next Gen" para testes modernos.*
-* *Cucumber Preprocessor (v24.0.0): Permite a escrita de testes em linguagem natural (Gherkin)..*
-* *Google Generative AI SDK: Integração com o modelo Gemini Flash-Latest para análise de erros.*
-* *Multiple Cucumber HTML Report: Geração de relatórios ricos e gráficos.*
-* *GitHub Actions: Pipeline de CI/CD configurado como "Vigia Noturno" (Execução diária).*
+* **Plugins**:
+* **Cucumber (Gherkin) Full Support: Para syntax highlight e navegação entre steps.
+* **ESLint: Para garantir a qualidade e padronização do código JS.
+* **Material Icon Theme: Para melhor visualização da estrutura de pastas.
 ---
 
 
