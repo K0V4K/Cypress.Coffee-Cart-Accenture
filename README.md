@@ -123,3 +123,23 @@ Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA 
 npm run test:god-tier
 
 ```
+
+
+```bash
+
+npm run cy:open
+
+```
+
+```bash
+
+npm run cy:run
+
+```
+
+```bash
+
+npm run report
+
+```
+
