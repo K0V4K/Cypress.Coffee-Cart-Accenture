@@ -81,15 +81,5 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 * *Multiple Cucumber HTML Report: Geração de relatórios ricos e gráficos.*
 * *GitHub Actions: Pipeline de CI/CD configurado como "Vigia Noturno" (Execução diária).*
 ---
-## Stack Tecnológico & Bibliotecas
-O projeto foi construído utilizando as versões mais recentes e estáveis das ferramentas de mercado, listadas no package.json:
-Performance & Utils
-* **Esbuild Preprocessor (v2.2.0): Compilador ultra-rápido para execução ágil dos testes.**:
-* **Faker.js (v8.4.0): Geração de massa de dados dinâmica (Nomes, E-mails VIP) para cenários de checkout*
-* *Dotenv (v16.4.0): Gerenciamento seguro de variáveis de ambiente e chaves de API.*
-Inteligência & Report
-* **Google Generative AI SDK (v0.24.1): Conexão com o modelo Gemini Flash-Latest.*
-* **Multiple Cucumber HTML Reporter (v3.6.0): Gerador de relatórios visuais com gráficos e métricas.*
----
 
 
