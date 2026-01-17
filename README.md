@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/cypress-io/cypress-icons/master/src/logo/cypress-io-logo-dark.png" alt="Cypress Logo" width="450" style="display: block; margin-bottom: 20px;">
+  <img src="https://www.cypress.io/_astro/cypress-logo.D87396b0.svg" alt="Cypress Logo" width="450" style="display: block; margin-bottom: 20px;">
 
 ## CoffeeCart E2E Automation <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="40" style="vertical-align: middle; margin-left: 8px;">
 
@@ -43,10 +43,3 @@ cypress
 │   └── step_definitions         <- A "Cola" entre Gherkin e JS
 ├── ai-analyst.js                <- Agente de IA (Gemini Flash)
 └── cypress.config.js            <- Configurações Globais
-```
-
-##Automation | Cypress + AI
-Este projeto transcende a automação tradicional ao integrar um Agente de IA (Google Gemini). Além de cobrir fluxos críticos de compra e saúde da API, o sistema intercepta falhas, analisa o erro técnico e injeta uma solução recomendada diretamente no relatório final.
-
-Aplicação Alvo
-Coffee Cart App: E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.
