@@ -170,3 +170,11 @@ npm run report
 > `cypress/reports/html-report/index.html`
 
 
+## Relatório HTML + IA (Smart Reporting)
+
+O framework implementa Relatórios Inteligentes potencializados pelo Google Gemini, garantindo a interceptação automática de falhas e a injeção de diagnósticos técnicos diretamente na evidência final.
+
+* *Análise de Causa Raiz: A IA lê o erro do Cypress.*
+* *Sugestão de Correção: O Gemini reescreve o step ou sugere o fix.*
+* *Print do Cypress é feita onde exatamente ocorreu a falha*
+* *Injeção no HTML: A resposta aparece formatada no dashboard, sem intervenção humana.*
