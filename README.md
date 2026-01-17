@@ -53,7 +53,7 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 ## API utilizada
 
-* *Bookstore demoqa swagger UI:* Plataforma REST para simulação de fluxos de livraria e validação de contratos de API.
+* *Bookstore demoqa swagger UI:* Plataforma REST para simulação de fluxos de livraria e validação de contratos de API.*
 
 ---
 
