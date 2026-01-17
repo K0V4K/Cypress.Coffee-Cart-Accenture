@@ -125,19 +125,19 @@ npm run test:god-tier
 
 ```
 
-
+### Abrir Interface Visual (Cypress Open)
 ```bash
 
 npm run cy:open
 
 ```
-
+### Apenas Rodar os Testes (Headless)
 ```bash
 
 npm run cy:run
 
 ```
-
+### Apenas Gerar Relatório HTML e Ver Ping
 ```bash
 
 npm run report
