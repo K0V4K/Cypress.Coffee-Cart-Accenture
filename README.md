@@ -102,3 +102,12 @@ Fluxo de Compra E2E (comprar_cafe.feature)
 * *Zero cy.wait Fixo: Utilização de cy.intercept para aguardar requisições reais de rede, tornando o teste mais rápido e confiável.*
 * *Massa Dinâmica: Uso do Faker.js para preencher formulários com dados únicos a cada execução.*
 ---
+O Grande Diferencial: Agente de IA (ai-analyst.js)
+* *Auto-Diagnóstico: Se um teste falha, o script:*
+* *Lê o erro técnico do JSON.*
+* *Consulta a API do Google Gemini.*
+* *Recebe a causa raiz e a solução técnica.*
+* *Injeta essa consultoria no relatório HTML com print e dicas de correção*
+
+Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA não polua o relatório em execuções sucessivas.
+---
