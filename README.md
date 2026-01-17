@@ -63,7 +63,6 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 * *ESLint: Para garantir a qualidade e padronização do código JS*
 * *Material Icon Theme: Para melhor visualização da estrutura de pastas.*
 * *Multiple Cucumber HTML Report: Geração de relatórios ricos e gráficos.*
-* *GitHub Actions: Pipeline de CI/CD configurado como "Vigia Noturno" (Execução diária).*
 ---
 
 ## Tech Stack & Arquitetura
