@@ -1,16 +1,19 @@
 class HomePage {
     elements = {
         coffeeItem: (name) => cy.getDataCy(name),
-        
         promoModalText: () => cy.contains("It's your lucky day!", { timeout: 10000 }),
         promoButtonYes: () => cy.contains('button', 'Yes, of course!'),
         cartMenuLink: () => cy.contains('a', 'cart')
     }
+
     visit() {
-        cy.stepInfo('Acessando a Home Page e aguardando API'); 
+        cy.stepInfo('Acessando a Home Page e validando renderização via UI'); 
+        
         cy.intercept('GET', '/list.json').as('getMenu');
+
         cy.visit('/');
-        cy.wait('@getMenu');
+
+        this.elements.coffeeItem('Espresso').should('be.visible');
     }
 
     /**

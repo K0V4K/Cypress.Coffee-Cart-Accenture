@@ -5,8 +5,11 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "report": "node cucumber-html-report.js",
-    "test:god-tier": "npm run cy:run || true && npm run report"
+    "analyze:ai": "node ai-analyst.js",
+    "report": "npm run analyze:ai & node cucumber-html-report.js",
+    "lint": "eslint cypress/**/*.js",
+    "// Comentário": "O & abaixo garante execução sequencial no Windows",
+    "test:god-tier": "npm run cy:run & npm run report"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
@@ -21,12 +24,15 @@
     }
   },
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "latest",
-    "@bahmutov/cypress-esbuild-preprocessor": "latest",
-    "@faker-js/faker": "latest",
-    "cypress": "latest",
-    "dotenv": "latest",
-    "esbuild": "latest",
-    "multiple-cucumber-html-reporter": "latest"
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@faker-js/faker": "^8.4.0",
+    "cypress": "^15.9.0",
+    "dotenv": "^16.4.0",
+    "esbuild": "^0.20.0",
+    "multiple-cucumber-html-reporter": "^3.6.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
   }
 }

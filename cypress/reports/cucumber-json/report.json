@@ -1,0 +1,244 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "health-check-da-api-(backend);validar-disponibilidade-e-contrato-da-lista-de-produtos",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validar disponibilidade e contrato da lista de produtos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que eu tenho o endpoint \"/list.json\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "eu envio uma requisição do tipo \"GET\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "o status code da resposta deve ser 200",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "o formato da resposta deve ser \"application/json\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "a lista de produtos não deve estar vazia",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "o produto \"Espresso\" deve estar presente na lista",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "health-check-da-api-(backend)",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Health Check da API (Backend)",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\api_health.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "compra-de-cafés-no-coffee-cart;realizar-fluxo-de-compra-completa-aproveitando-a-promoção",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Realizar fluxo de compra completa aproveitando a promoção",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que o usuário acessa a loja virtual",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 905000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Espresso"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Espresso-Macchiato"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Cappuccino"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "ele adiciona os seguintes produtos ao carrinho:",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "aceita a oferta promocional do item \"Mocha\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "o carrinho deve contabilizar 4 itens",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "ele remove o primeiro item da lista",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "finaliza o pagamento com dados financeiros válidos",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "deve visualizar a mensagem de confirmação \"Thanks for your purchase. Please check your email for payment.\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "compra-de-cafés-no-coffee-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Compra de Cafés no Coffee Cart",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\comprar_cafe.feature"
+  }
+]

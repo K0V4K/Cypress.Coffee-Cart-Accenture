@@ -1,6 +1,7 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import { homePage } from "../pages/HomePage";
 import { cartPage } from "../pages/CartPage";
+import { faker } from '@faker-js/faker';
 
 Given("que o usuário acessa a loja virtual", () => {
     homePage.visit();
@@ -26,7 +27,18 @@ When("ele remove o primeiro item da lista", () => {
 });
 
 When("finaliza o pagamento com dados financeiros válidos", () => {
-    cartPage.submitCheckout();
+    const vipNames = ['Valter', 'Jadeilson', 'Renato', 'Manoela'];
+    const firstName = faker.helpers.arrayElement(vipNames);
+    const lastName = faker.person.lastName(); 
+    const fullName = `${firstName} ${lastName}`;
+    
+    const email = faker.internet.email({
+        firstName: firstName,
+        lastName: 'Accenture', 
+        provider: 'accenture.com'
+    });
+
+    cartPage.submitCheckout(fullName, email);
 });
 
 Then("deve visualizar a mensagem de confirmação {string}", (message) => {

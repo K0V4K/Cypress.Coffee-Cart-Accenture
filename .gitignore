@@ -1,6 +1,1 @@
 node_modules
-cypress/videos
-cypress/screenshots
-.env
-cypress/reports
-.DS_Store

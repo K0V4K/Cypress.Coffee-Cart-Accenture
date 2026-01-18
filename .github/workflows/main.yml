@@ -1,9 +1,12 @@
 name: ☕ Coffee Cart Elite Pipeline
+
 on:
   push:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
+  schedule:
+    - cron: '0 6 * * *' 
 
 jobs:
   cypress-run:
@@ -25,9 +28,10 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
-          start: npm run cy:run 
+          command: npm run test:god-tier
         env:
-          SECRET_TOKEN: ${{ secrets.SECRET_TOKEN }}
+          SECRET_PASSWORD: ${{ secrets.SECRET_PASSWORD }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: 📸 Upload Screenshots (On Failure)
         uses: actions/upload-artifact@v4
