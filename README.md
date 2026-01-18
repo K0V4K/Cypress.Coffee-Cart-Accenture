@@ -206,7 +206,6 @@ Para: checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
 
 <div align="center">
   <img src="Assets/Relatorio.png" alt="Relatório de Testes Karate" width="100%">
-  <p><i>Dashboard de execução: 5 cenários validados com 100% de aproveitamento.</i></p>
 </div>
 
 <div align="center">
@@ -225,4 +224,3 @@ Para: checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
 </div>
 
 ---
-
