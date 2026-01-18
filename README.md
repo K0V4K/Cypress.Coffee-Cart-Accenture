@@ -133,6 +133,8 @@ git clone https://github.com/K0V4K/Coffe-Cart-Accenture
 ## Configurar a IA::
 * *Acesse: e gere sua KEY: [Google AI Studio](https://aistudio.google.com/app/apikey)*
 * *Abra o .env e cole a chave em GEMINI_API_KEY:*
+---
+## .env
 ```bash
 
 BASE_URL=https://coffee-cart.app
