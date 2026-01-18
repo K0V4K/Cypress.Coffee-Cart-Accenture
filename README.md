@@ -205,10 +205,6 @@ Para: checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
 ---
 
 <div align="center">
-  <img src="Assets/Relatorio.png" alt="Relatório de Testes Karate" width="100%">
-</div>
-
-<div align="center">
 
 > "A automação não é sobre substituir humanos, mas sobre dar superpoderes a eles."
 
