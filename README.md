@@ -2,7 +2,7 @@
 
   <img src="https://raw.githubusercontent.com/cypress-io/cypress/develop/assets/cypress-logo-dark.png" alt="Cypress Logo" width="400" style="display: block; margin-bottom: 20px;">
 
-## CoffeeCart E2E Automation <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="40" style="vertical-align: middle; margin-left: 8px;">
+## Coffee-Cart E2E Automation <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="40" style="vertical-align: middle; margin-left: 8px;">
 
   <h3>
     Accenture <img src="https://www.accenture.com/favicon.ico" width="16" style="vertical-align: middle; margin: 0 5px 4px 5px;"> Academy QE 2026
@@ -52,7 +52,7 @@ Este projeto transcende a automação tradicional ao integrar um Agente de IA (G
 
 ## Aplicação Alvo
 
-* *WEB [CoffeCart](https://coffee-cart.app/): E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.*
+* *WEB [Coffe-Cart](https://coffee-cart.app/): E-commerce simulado para validação de fluxos de carrinho, promoções e checkout.*
 
 ---
 
