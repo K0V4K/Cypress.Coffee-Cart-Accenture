@@ -144,6 +144,14 @@ RETRY_ATTEMPTS=2
 GEMINI_API_KEY= (COLOQUE_SUA_CHAVE_AQUI)   
 
 ```
+
+
+[!NOTE] Os valores de SECRET_PASSWORD e API_TOKEN presentes no exemplo acima são dados simulados e inofensivos, criados especificamente para atender aos requisitos deste desafio técnico.
+
+Já a GEMINI_API_KEY é uma credencial real e pessoal. Seguindo as boas práticas de SecDevOps, ela nunca deve ser compartilhada ou versionada. Por isso, para validar o funcionamento do Agente de IA e a geração dos relatórios inteligentes, é necessário que você utilize sua própria chave de API conforme as instruções acima.
+
+
+
 ---
 ### Execução Completa (Testes + Relatório + Ping + IA):
 ```bash
