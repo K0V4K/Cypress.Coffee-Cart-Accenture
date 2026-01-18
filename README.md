@@ -176,5 +176,11 @@ O framework implementa Relatórios Inteligentes potencializados pelo Google Gemi
 
 * *Análise de Causa Raiz: A IA lê o erro do Cypress.*
 * *Sugestão de Correção: O Gemini reescreve o step ou sugere o fix.*
-* *Print do Cypress é feita onde exatamente ocorreu a falha*
+* *Print: Imagem do Cypress é feita onde exatamente ocorreu a falha*
 * *Injeção no HTML: A resposta aparece formatada no dashboard, sem intervenção humana.*
+
+---
+
+![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela1.png?raw=true)
+
+
