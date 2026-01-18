@@ -233,19 +233,19 @@ Para: checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
 ```
 ---
 
-## Automação em Ação (Cypress UI Mode)
+## Automação em Ação (Cypress UI Mode):
 
 Para visualizar a orquestração dos testes e a interação direta com a interface do Coffee-Cart, você pode utilizar o modo assistido do Cypress. Este modo permite acompanhar cada clique, validação e interceptação de rede em tempo real.
 
 ```bash
 npm run cy:open
 ```
-## Interface Visual: Seleção de Navegador (Cypress Open)
+## Interface Visual: Seleção de Navegador (Cypress Open):
 ![Dashboard](https://github.com/K0V4K/Cypress.Coffee-Cart-Accenture/blob/main/Screen/Cypress%20Sele%C3%A7%C3%A3o%20.png?raw=true)
 
 ---
 
-## Cypress Runner: Execução Assistida e Validação em Tempo Real
+## Cypress Runner: Execução Assistida e Validação em Tempo Real:
 ![Dashboard](https://github.com/K0V4K/Cypress.Coffee-Cart-Accenture/blob/main/Screen/image.png?raw=true)
 
 ---
