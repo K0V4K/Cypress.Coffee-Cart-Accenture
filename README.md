@@ -126,7 +126,7 @@ Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA 
 ## Clonar o repositório:
  ```bash
 
-git clone https://github.com/K0V4K/Coffe-Cart-Accenture
+git clone https://github.com/K0V4K/Cypress.Coffee-Cart-Accenture
 
 ```
 
