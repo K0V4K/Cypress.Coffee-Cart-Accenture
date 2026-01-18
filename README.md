@@ -141,7 +141,7 @@ SECRET_PASSWORD=X7mP9$vL_C0ff33!@2024_Accenture
 API_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.simulacao_elite_god_tier_challenge
 DEFAULT_TIMEOUT=10000
 RETRY_ATTEMPTS=2
-GEMINI_API_KEY= (COLOQUE_SUA_CHAVE_AQUI)   
+GEMINI_API_KEY= (COLOQUE_SUA_CHAVE_AQUI) <- Aqui deve ser substituido pela KEY do Google AI Studio.
 
 ```
 
