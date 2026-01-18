@@ -8,18 +8,18 @@ Given("que o usuário acessa a loja virtual", () => {
 });
 
 When("ele adiciona os seguintes produtos ao carrinho:", (dataTable) => {
-    dataTable.raw().forEach((row) => {
+    dataTable.rawTable.forEach(row => {
         homePage.addCoffeeToCart(row[0]);
     });
 });
 
-When("aceita a oferta promocional do item {string}", (promoItem) => {
+When("aceita a oferta promocional do item {string}", (item) => {
     homePage.acceptPromo();
 });
 
-Then("o carrinho deve contabilizar {int} itens", (quantity) => {
+Then("o carrinho deve contabilizar {int} itens", (count) => {
     homePage.goToCart();
-    cartPage.validateItemsCount(quantity);
+    cartPage.validateItemsCount(count);
 });
 
 When("ele remove o primeiro item da lista", () => {
@@ -27,18 +27,11 @@ When("ele remove o primeiro item da lista", () => {
 });
 
 When("finaliza o pagamento com dados financeiros válidos", () => {
-    const vipNames = ['Valter', 'Jadeilson', 'Renato', 'Manoela'];
-    const firstName = faker.helpers.arrayElement(vipNames);
-    const lastName = faker.person.lastName(); 
-    const fullName = `${firstName} ${lastName}`;
+    const randomName = faker.person.fullName();
+    const randomEmail = faker.internet.email();
     
-    const email = faker.internet.email({
-        firstName: firstName,
-        lastName: 'Accenture', 
-        provider: 'accenture.com'
-    });
-
-    cartPage.submitCheckout(fullName, email);
+    cy.stepInfo(`Dados Faker Gerados: ${randomName} | ${randomEmail}`);
+    cartPage.submitCheckout(randomName, randomEmail);
 });
 
 Then("deve visualizar a mensagem de confirmação {string}", (message) => {
