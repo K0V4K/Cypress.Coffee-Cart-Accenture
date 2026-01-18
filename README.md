@@ -189,17 +189,16 @@ O framework implementa Relatórios Inteligentes potencializados pelo Google Gemi
 ## Relátorio de falha no Dashboard
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela2.png?raw=true)
 
-## Introduzir erro para testar relatório com Gemini
-Procure o arquivo em: ```cypress/support/pages/CartPage.js```
-
-```bash
-checkoutBtn: () => cy.get('[data-test="checkout"]'),
-                      por
-checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
-```
-
 ---
 
 ## Análise de erro (Gemini) 
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela3.png?raw=true)
 
+## Introduzir erro para testar relatório com Gemini
+Procure o arquivo em: ```cypress/support/pages/CartPage.js```
+
+```bash
+De: checkoutBtn: () => cy.get('[data-test="checkout"]'),
+Para:checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
+```
+---
