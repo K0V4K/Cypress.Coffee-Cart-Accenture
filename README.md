@@ -199,6 +199,6 @@ Procure o arquivo em: ```cypress/support/pages/CartPage.js```
 
 ```bash
 De: checkoutBtn: () => cy.get('[data-test="checkout"]'),
-Para:checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
+Para: checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
 ```
 ---
