@@ -145,7 +145,7 @@ GEMINI_API_KEY= (COLOQUE_SUA_CHAVE_AQUI)
 
 ```
 
-> [!TIP]
+> [!IMPORTANT]
 > **Nota sobre as Variáveis de Ambiente:**
 > Os valores de `SECRET_PASSWORD` e `API_TOKEN` presentes no exemplo acima são dados simulados e inofensivos, criados especificamente para atender aos requisitos deste desafio técnico.
 >
