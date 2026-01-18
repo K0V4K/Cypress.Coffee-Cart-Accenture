@@ -133,7 +133,7 @@ npm run test:god-tier
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Execu%C3%A7%C3%A3o%20Completa%20(Testes%20+%20Relat%C3%B3rio%20+%20Ping%20+%20IA).png?raw=true)
 
 ---
-### Abrir Interface Visual (Cypress Open)
+### Abrir Interface Visual (Cypress Open):
 ```bash
 
 npm run cy:open
@@ -142,7 +142,7 @@ npm run cy:open
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Iniciando%20Cypress.png?raw=true)
 
 ---
-### Apenas Rodar os Testes (Headless)
+### Apenas Rodar os Testes (Headless):
 ```bash
 
 npm run cy:run
@@ -152,14 +152,13 @@ npm run cy:run
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Apenas%20Rodar%20os%20Testes%20(Headless).png?raw=true)
 
 ---
-### Apenas Gerar Relatório HTML e Ver Ping
+### Apenas Gerar Relatório HTML e Ver Ping:
 ```bash
 
 npm run report
 
 ```
 
----
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Apenas%20Gerar%20Relat%C3%B3rio%20HTML%20e%20Ver%20Ping.png?raw=true)
 
 > [!TIP]
@@ -181,17 +180,17 @@ O framework implementa Relatórios Inteligentes potencializados pelo Google Gemi
 
 ---
 
-## Dashboard Geral de Execução
+## Dashboard Geral de Execução:
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela1.png?raw=true)
 
 ---
 
-## Detalhamento de Falha por Feature
+## Detalhamento de Falha por Feature:
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela2.png?raw=true)
 
 ---
 
-## Diagnóstico de Causa Raiz via IA (Gemini)
+## Diagnóstico de Causa Raiz via IA (Gemini):
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela3.png?raw=true)
 
 ## Introduzir erro para testar relatório com Gemini
