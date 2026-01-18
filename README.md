@@ -199,6 +199,30 @@ Procure o arquivo em: ```cypress/support/pages/CartPage.js``` e troque:
 
 ```bash
 De: checkoutBtn: () => cy.get('[data-test="checkout"]'),
+
 Para: checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
 ```
 ---
+
+<div align="center">
+  <img src="Assets/Relatorio.png" alt="Relatório de Testes Karate" width="100%">
+  <p><i>Dashboard de execução: 5 cenários validados com 100% de aproveitamento.</i></p>
+</div>
+
+<div align="center">
+
+> "A automação não é sobre substituir humanos, mas sobre dar superpoderes a eles."
+
+  <p>
+    Made with 🎖️ by <b>Valter Pereira da Silva Filho</b> (<i>KØV4K</i>) <br>
+    <b>Accenture Academy QE 2026</b>
+  </p>
+
+  <a href="https://www.linkedin.com/in/valterpereirafilho/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+
+</div>
+
+---
+
