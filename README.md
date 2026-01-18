@@ -121,7 +121,14 @@ Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA 
 
 ## Como Executar o Projeto: Pré-requisitos
 * *Node.js instalado.*
-* *Arquivo .env configurado com GEMINI_API_KEY*
+* *Arquivo .env configurar com GEMINI_API_KEY*
+
+## Clonar o repositório:
+ ```bash
+
+git clone https://github.com/K0V4K/Coffe-Cart-Accenture
+
+```
 
 
 ### Execução Completa (Testes + Relatório + Ping + IA):
