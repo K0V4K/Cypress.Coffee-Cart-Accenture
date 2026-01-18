@@ -82,7 +82,7 @@ Este projeto foi construído sobre uma fundação robusta de tecnologias moderna
 * **[Dotenv](https://github.com/motdotla/dotenv)** (v16.4.0): Gerenciamento de segurança, garantindo que chaves de API (Gemini) e credenciais não sejam expostas no código fonte.
 
 ### AI Intelligence & Reporting
-* **[Google Generative AI SDK](https://ai.google.dev/)** (v0.24.1): Integração com o LLM **Gemini 1.5 Flash** para análise automática de falhas e sugestão de correções.
+* **[Google Generative AI SDK](https://ai.google.dev/)** (v0.24.1): Integração com o LLM **Gemini Flash-Latest** para análise automática de falhas e sugestão de correções.
 * **[Multiple Cucumber HTML Reporter](https://developer.mozilla.org/pt-BR/docs/Web/HTML)** (v3.6.0): Transformação dos dados de teste em dashboards visuais ricos com métricas de execução.
 
 ### CI/CD & Orchestration
