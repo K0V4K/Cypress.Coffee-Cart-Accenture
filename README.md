@@ -181,17 +181,17 @@ O framework implementa Relatórios Inteligentes potencializados pelo Google Gemi
 
 ---
 
-## Tela Inicial do relátorio
+## Dashboard Geral de Execução
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela1.png?raw=true)
 
 ---
 
-## Relátorio de falha no Dashboard
+## Detalhamento de Falha por Feature
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela2.png?raw=true)
 
 ---
 
-## Análise de erro (Gemini) 
+## Diagnóstico de Causa Raiz via IA (Gemini)
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela3.png?raw=true)
 
 ## Introduzir erro para testar relatório com Gemini
