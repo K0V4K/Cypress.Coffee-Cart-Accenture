@@ -181,6 +181,7 @@ O framework implementa Relatórios Inteligentes potencializados pelo Google Gemi
 
 ---
 
+## Tela Inicial do relátorio
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela1.png?raw=true)
 
 
