@@ -233,6 +233,31 @@ Para: checkoutBtn: () => cy.get('[data-test="checkout-QUEBRADO"]'),
 ```
 ---
 
+## Automação em Ação (Cypress UI Mode)
+
+Para visualizar a orquestração dos testes e a interação direta com a interface do Coffee-Cart, você pode utilizar o modo assistido do Cypress. Este modo permite acompanhar cada clique, validação e interceptação de rede em tempo real.
+
+```bash
+npm run cy:open
+```
+## Interface Visual: Seleção de Navegador (Cypress Open)
+![Dashboard](https://github.com/K0V4K/Cypress.Coffee-Cart-Accenture/blob/main/Screen/Cypress%20Sele%C3%A7%C3%A3o%20.png?raw=true)
+
+---
+
+## Interface Visual: Seleção de Navegador (Cypress Open)
+![Dashboard](https://github.com/K0V4K/Cypress.Coffee-Cart-Accenture/blob/main/Screen/image.png?raw=true)
+
+---
+## Relatório HTML + IA (Smart Reporting):
+
+O framework implementa Relatórios Inteligentes potencializados pelo Google Gemini, garantindo a interceptação automática de falhas e a injeção de diagnósticos técnicos diretamente na evidência final.
+
+* *Análise de Causa Raiz: A IA lê o erro do Cypress.*
+* *Sugestão de Correção: O Gemini reescreve o step ou sugere o fix.*
+* *Print: Imagem do Cypress é feita onde exatamente ocorreu a falha*
+* *Injeção no HTML: A resposta aparece formatada no dashboard, sem intervenção humana.*
+---
 <div align="center">
 
 > "A automação não é sobre substituir humanos, mas sobre dar superpoderes a eles."
