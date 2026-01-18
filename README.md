@@ -133,7 +133,17 @@ git clone https://github.com/K0V4K/Coffe-Cart-Accenture
 ## Configurar a IA::
 * *Acesse: e gere sua KEY: [Google AI Studio](https://aistudio.google.com/app/apikey)*
 * *Abra o .env e cole a chave em GEMINI_API_KEY:*
+```bash
 
+BASE_URL=https://coffee-cart.app
+ENVIRONMENT=production
+SECRET_PASSWORD=X7mP9$vL_C0ff33!@2024_Accenture
+API_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.simulacao_elite_god_tier_challenge
+DEFAULT_TIMEOUT=10000
+RETRY_ATTEMPTS=2
+GEMINI_API_KEY= (COLOQUE_SUA_CHAVE_AQUI)   
+
+```
 
 ### Execução Completa (Testes + Relatório + Ping + IA):
 ```bash
