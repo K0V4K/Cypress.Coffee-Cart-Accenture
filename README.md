@@ -83,7 +83,7 @@ Este projeto foi construído sobre uma fundação robusta de tecnologias moderna
 
 ### AI Intelligence & Reporting
 * **[Google Generative AI SDK](https://ai.google.dev/)** (v0.24.1): Integração com o LLM **Gemini 1.5 Flash** para análise automática de falhas e sugestão de correções.
-* **[Multiple Cucumber HTML Reporter](https://github.com/WasiqB/multiple-cucumber-html-reporter)** (v3.6.0): Transformação dos dados de teste em dashboards visuais ricos com métricas de execução.
+* **[Multiple Cucumber HTML Reporter](https://developer.mozilla.org/pt-BR/docs/Web/HTML)** (v3.6.0): Transformação dos dados de teste em dashboards visuais ricos com métricas de execução.
 
 ### CI/CD & Orchestration
 * **[GitHub Actions](https://github.com/features/actions)**: Pipeline de integração contínua configurado como "Vigia Noturno". Executa a bateria de testes automaticamente todos os dias às 06:00 UTC (Nightly Build) para garantir a estabilidade contínua do projeto.
@@ -124,7 +124,7 @@ Limpeza Inteligente: Mecanismos anti-duplicação garantem que a análise da IA 
 * *Arquivo .env configurado com GEMINI_API_KEY*
 
 
-### Execução Completa (Testes + Relatório + Ping + IA)
+### Execução Completa (Testes + Relatório + Ping + IA):
 ```bash
 
 npm run test:god-tier
@@ -169,7 +169,7 @@ npm run report
 > `cypress/reports/html-report/index.html`
 
 
-## Relatório HTML + IA (Smart Reporting)
+## Relatório HTML + IA (Smart Reporting):
 
 O framework implementa Relatórios Inteligentes potencializados pelo Google Gemini, garantindo a interceptação automática de falhas e a injeção de diagnósticos técnicos diretamente na evidência final.
 
@@ -193,7 +193,7 @@ O framework implementa Relatórios Inteligentes potencializados pelo Google Gemi
 ## Diagnóstico de Causa Raiz via IA (Gemini):
 ![Dashboard](https://github.com/K0V4K/Coffe-Cart-Accenture/blob/main/Screen/Tela3.png?raw=true)
 
-## Introduzir erro para testar relatório com Gemini
+## Introduzir erro para testar relatório com Gemini:
 Procure o arquivo em: ```cypress/support/pages/CartPage.js``` e troque:
 
 ```bash
